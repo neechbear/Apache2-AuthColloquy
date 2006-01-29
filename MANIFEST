@@ -1,0 +1,14 @@
+Changes
+ChangeLog
+INSTALL
+lib/Apache2/AuthColloquy.pm
+LICENSE
+Makefile.PL
+MANIFEST
+META.yml
+NOTICE
+README
+t/00compile.t
+t/01pod.t
+t/02pod_coverage.t
+TODO
