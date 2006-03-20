@@ -1,0 +1,17 @@
+<SOFTPKG NAME="Apache2-AuthColloquy" VERSION="1,13,0,0">
+    <TITLE>Apache2-AuthColloquy</TITLE>
+    <ABSTRACT>mod_perl authentication against the Colloquy users.lua file</ABSTRACT>
+    <AUTHOR>Nicola Worthington &lt;nicolaw@cpan.org&gt;</AUTHOR>
+    <IMPLEMENTATION>
+        <DEPENDENCY NAME="Apache2-Const" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Apache2-Log" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Apache2-RequestRec" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Apache2-RequestUtil" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Apache2-Access" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="mod_perl2" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Colloquy-Data" VERSION="1,02,0,0" />
+        <DEPENDENCY NAME="MD5" VERSION="0,0,0,0" />
+        <DEPENDENCY NAME="Apache2-Connection" VERSION="0,0,0,0" />
+        <CODEBASE HREF="PPM-Apache2-AuthColloquy-1.13.tar.gz" />
+    </IMPLEMENTATION>
+</SOFTPKG>
