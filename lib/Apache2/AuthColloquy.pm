@@ -33,7 +33,7 @@ require Exporter;
 
 @ISA = qw(Exporter AutoLoader);
 @EXPORT = qw();
-$VERSION = '1.13' || sprintf('%d.%02d', q$Revision: 1.12 $ =~ /(\d+)/g);
+$VERSION = '1.13' || sprintf('%d.%02d', q$Revision$ =~ /(\d+)/g);
 
 # Test for the version of mod_perl, and use the appropriate libraries
 require Apache2::Access;
